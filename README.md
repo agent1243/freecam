@@ -1,13 +1,16 @@
-This mod allows an admin to control a player's camera separately from their body. While freecam is enabled, the player becomes an invisible, intangible ghost that can fly freely around the world within render distance, without being able to break or place blocks, or take or deal damage. Disabling it restores the player to their original position and state.
+# Freecam Mod
+Freecam is a mod that allows you to control the camera freely around the world with a simple command.
 
-This can be useful for quickly inspecting builds, scouting terrain, or checking on a player's surroundings without affecting gameplay.
+### Main functions:
+**Compatibility:** It's still being worked on, but I plan to make it compatible with various mods and Skinsdb works perfectly.
+### Commands:
+* `/freecam <player> true` - Turn on free camera mode for that player.
+* `/freecam <player> false` - Turn off free camera mode for that player.
 
-This mod is server-side and requires the privs privilege to use the /freecam command. It is your responsibility, as the server admin, to decide who should be granted that privilege.
+Requires the `privs` privilege. Admins can grant this privilege to any player, who can then use it on themselves or on others.
 
-Unlike client-side freecam mods, this mod runs entirely on the server, so it cannot be "detected" the way client mods sometimes are. However, misuse (e.g. using it to spy on players without disclosure, or as an unfair advantage) is between you and your own server's rules and your players' expectations.
+### Creation:
+A few months ago I was playing several Voxel games when I came across several free camera mods and I loved the idea, but I didn't find any person who made a mod like this for Luanti (formerly Minetest) so I decided to create the mod myself, this mod was entirely made by me with the help of AI :)
 
-To paraphrase our license, we are not responsible for any damages or liability related to this mod. Among other things, this means it's not our fault if something goes wrong on your server because of how it's used. Here's the full license.
-
-License
-
-MIT
+### Servers:
+This mod was exclusively made for servers, so it is compatible with various mods used on servers, but understand that it is still in beta.
